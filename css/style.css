@@ -53,6 +53,17 @@ figure{
     transform: scale(1.2);
 }
 
+.aboutus #aboutuskawakawa img  {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out; 
+}
+
+.aboutus #aboutuskawakawa:hover img  {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 .carouselControl {
     position: absolute;
     bottom: 0;
