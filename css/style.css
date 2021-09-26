@@ -23,7 +23,7 @@ body{
 }
 
 .product{
-    background-image: url(../asset/pokemonwallpaper.jpg);
+    background-image: url(../asset/baner_tokped_2.png);
 }
 
 .socialmediaImage{ 
@@ -81,10 +81,11 @@ figure{
 
 .parallax {
     /* The image used */
-    background-image: url(../asset/pokemonwallpaper.jpg);
+    background-image: url(../asset/baner_tokped_2.png);
     
     /* Set a specific height */
     min-height: 50rem; 
+    width: 100%;
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -101,4 +102,16 @@ figure{
     border-right: 2px solid white;
     background-color: transparent;
     
+}
+
+.kawakawared {
+    background-color: #FF0000;
+}
+
+.kawakawablack {
+    background-color: black;
+}
+
+.kawakawawhite {
+    background-color: white;
 }
