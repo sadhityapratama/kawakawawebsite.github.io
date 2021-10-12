@@ -24,6 +24,7 @@ body{
 
 .product{
     background-image: url(../asset/baner_tokped_2.png);
+    width: 100%;
 }
 
 .socialmediaImage{ 
@@ -84,14 +85,14 @@ figure{
     background-image: url(../asset/baner_tokped_2.png);
     
     /* Set a specific height */
-    min-height: 50rem; 
-    width: 100%;
+    min-height: 50rem;
+    background-size: 100%;
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 
@@ -114,4 +115,8 @@ figure{
 
 .kawakawawhite {
     background-color: white;
+}
+
+.homeicon {
+    width: 8%;
 }
