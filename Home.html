@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     
+    <!-- JS -->
+    <script src="js/javascript.js" ></script>
+
+
     <!-- website icon -->
     <link rel="icon" href="asset/logo/FULL KAWA KAWA.png">
     
@@ -16,13 +20,20 @@
     <title>Anggur Kawa Kawa</title>
 </head>
 <body class="">
-    
+
+    <!-- Promo Page -->
+    <div id="myNav" class="overlay" style="width: 100%;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <img src="asset/baner_tokped_2.png" class="" alt="...">
+        </div>
+      </div>    
     
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light "><!-- buat bikin stay diatas fixed-top -->
         <div class="container-fluid">
             <a class="navbar-brand" href="../Home.html">
-                <img src="./asset/logo/FULL KAWA KAWA.png" class="d-block homeicon img-fluid" alt="..." >
+                <img src="asset/logo/FULL KAWA KAWA.png" class="d-block homeicon img-fluid" alt="..." >
             </a>
             <!-- <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent"></div> -->
             <div class=" d-flex justify-content-end" id="navbarSupportedContent">
@@ -64,13 +75,13 @@
     </nav>
     
     <!-- nurunin content -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="row mt-5">
             <div class="col">
                 <h1> </h1>
             </div>
         </div>
-    </div>
+    </div> -->
     
     <!-- Carousel -->
     <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -319,7 +330,7 @@
     <!-- Footer -->
     
     <div class="col text-end">
-        <a href="https://api.whatsapp.com/send?phone=+62 812-1999-7808">
+        <a id="adminButton" href="https://api.whatsapp.com/send?phone=+62 812-1999-7808" style="display: none;">
             <button class="whatsappButton" id="myBtn" title="">Order from admin</button>
         </a>
     </div>
