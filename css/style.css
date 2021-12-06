@@ -159,7 +159,6 @@ iframe {
     font-size: 22px;
 }
 
-
 .owl-item.active .slide-content h2, 
 .owl-item.active .slide-content h3, 
 .owl-item.active .slide-content p
@@ -169,7 +168,6 @@ iframe {
   animation-iteration-count: 1;
   animation-name: fadeInUp;
 }
-
 
 
 .slide-content h2{
@@ -221,8 +219,14 @@ iframe {
   height: 100%;
 }
 
+.slider-area-kawakawa, .main-slider-kawakawa {
+  position: relative;
+  height: 100%;
+}
 
-
+.main-slider-kawakawa div:not(.owl-nav):not(.owl-prev):not(.owl-prev):not(.owl-next) {
+  height: 100%;
+}
 
 
 
@@ -281,6 +285,9 @@ iframe {
 
 .colorfullPanel{
   background-color: #333333;
+  background-image: url(../img/featured/featured3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff;
   transition: background-color 0.5s ease;
 }
@@ -569,7 +576,7 @@ div#news-slider .owl-next {
 
 .post-img p {
   color: #fff;
-  margin-top: 100px;
+  margin-top: 50%;
   text-align: center;
   visibility: hidden;
   
@@ -577,9 +584,10 @@ div#news-slider .owl-next {
 
 .post-img:hover p {
   visibility: visible;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 1;
   animation-name: fadeInUp;
+  font-size: 20px;
 }
 
 
@@ -599,7 +607,7 @@ div#news-slider .owl-next {
 */
 
 .navbar.active {
-  background: #333333;
+  background: rgba(51, 51, 51, 0.5);;
   border-radius: 0px;
   padding-bottom: 10px;
   box-shadow: 0 10px 15px rgba(25,25,25,0.1);

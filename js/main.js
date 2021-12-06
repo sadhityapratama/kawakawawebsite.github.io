@@ -21,6 +21,26 @@
         }
     })
 
+    $('.featured-page').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:true,
+        autoHeight:true,
+        autoHeightClass: 'owl-height',
+        pagination: true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+
     $('.testimonial-area').owlCarousel({
         loop:true,
         margin:10,
@@ -65,16 +85,35 @@
         }
     })
 
-    //scroll navbar effect
-    $(window).on('scroll', function () {
-        if ( $(window).scrollTop() > 10 ) {
-             $('.navbar').addClass('active');
-        } else {
-             $('.navbar').removeClass('active');
+    $('.main-slider-kawakawa').owlCarousel({
+        loop:false,
+        margin:0,
+        nav:true,
+        dots: false,
+        pagination: true,
+        autoHeight: false,
+//        autoHeightClass: 'owl-height',
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
         }
-    });
+    })
 
-
+    //scroll navbar effect yang ngilangin background navbar di awal
+    // $(window).on('scroll', function () {
+    //     if ( $(window).scrollTop() > 10 ) {
+    //          $('.navbar').addClass('active');
+    //     } else {
+    //          $('.navbar').removeClass('active');
+    //     }
+    // });
 
       
         // Smooth scrolling using jQuery easing
@@ -102,6 +141,7 @@
         offset: 100,
 
     });
+
       
 
     // Initialize and add the map
