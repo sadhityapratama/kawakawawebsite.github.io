@@ -30,7 +30,7 @@ Author URI: https://cemreworks.com
 }
 
 p.colorfullText {
-    color: #fab000;
+    color: #F70000;
     letter-spacing: 2px;
 }
 
@@ -347,7 +347,7 @@ section#section2 {
 section#section2 .maintext span{
   margin-top: 90px;
   font-weight: 800;
-  color: #f9b000;
+  color: #F70000;
   line-height: 1.7;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -405,7 +405,7 @@ section#section2 .shapes p{
 .section-title h3{
   margin-top: 90px;
   font-weight: 800;
-  color: #f9b000;
+  color: #F70000;
   line-height: 1.7;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -424,22 +424,22 @@ section#section2 .shapes p{
 
 
 .imgback {
-  background-image: url(../img/shape/backgroundshape.png);
+  background-image: url(../img/shape/redcircle.png);
   /* max-width: 100%; */
   padding-right: 35px;
   background-repeat: no-repeat;
   display: block;
   float: none;
   margin: auto;
-  padding-left: 35px;
-  padding-top: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
   padding-bottom: 40px;
   transition: padding-top 0.5s;
 }
 
 
 img.imgback:hover {
-  padding-top: 32px;
+  padding-top: 20px;
 }
 
 .shapes{
@@ -685,7 +685,7 @@ div#news-slider .owl-next {
   content: "";
   left: 0;
   bottom: 0px;
-  background: #f9b000;
+  background: #F70000;
   height: 1px;
   width: 0;
   transition: 0.3s;
@@ -694,7 +694,7 @@ div#news-slider .owl-next {
 .navBar li>.nav-link:hover::before,
 .navBar li>.nav-link.active::before {
   width: 100%;
-  background: #f9b000;
+  background: #F70000;
 
 }
 
@@ -724,7 +724,7 @@ div#news-slider .owl-next {
 
   margin-top: 20px;
   font-weight: 800;
-  color: #f9b000;
+  color: #F70000;
   line-height: 1.7;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -789,7 +789,7 @@ div#news-slider .owl-next {
 .testimonial-content  h4{
 
   font-weight: 800;
-  color: #f9b000;
+  color: #F70000;
   line-height: 1.7;
   text-transform: uppercase;
   text-align: center;
@@ -803,7 +803,7 @@ div#news-slider .owl-next {
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
-  background: #f9b000;
+  background: #F70000;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1609,7 +1609,7 @@ li.address-section .fa{
 
 .lock{
   font-weight: bold;
-  border-bottom: 2px solid rgb(248, 176, 0);
+  border-bottom: 2px solid #F70000;
   width: 40px;
   height: 3px;
   margin-bottom: 10px;
@@ -1660,3 +1660,122 @@ li.footer-section a:focus p{
 */
 
 
+/*
+* ==========================================
+* SECTIONMARKETPLACE START 
+* ==========================================
+*/
+section#sectionMarketplace {
+  padding-top: 65px;
+  padding-bottom: 150px;
+}
+
+section#sectionMarketplace .maintext span{
+  margin-top: 90px;
+  font-weight: 800;
+  color: #F70000;
+  line-height: 1.7;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+
+}
+
+
+
+section#sectionMarketplace .maintext h2 {
+  font-size: 70px;
+  font-family: 'Righteous';
+  color: rgb(68, 68, 68);
+  line-height: 1;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+section#sectionMarketplace .maintext p {
+
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
+
+section#sectionMarketplace .shapes span{
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  line-height: 1.7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+section#sectionMarketplace .shapes p{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(119, 119, 119);
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 25px;
+}
+/* 
+.minHeightProp{
+  min-height: 150px;
+}
+
+
+
+.section-title h3{
+  margin-top: 90px;
+  font-weight: 800;
+  color: #F70000;
+  line-height: 1.7;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  
+  }
+
+.section-title h2 {
+  margin-top: 30px;
+  font-size: 70px;
+  font-family: 'Righteous';
+  color: rgb(68, 68, 68);
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+.imgback {
+  background-image: url(../img/shape/redcircle.png);
+  /* max-width: 100%; */
+  padding-right: 35px;
+  background-repeat: no-repeat;
+  display: block;
+  float: none;
+  margin: auto;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  transition: padding-top 0.5s;
+}
+
+
+img.imgback:hover {
+  padding-top: 20px;
+}
+
+.shapes{
+  margin-top: 50px;
+  margin-bottom: 50px;
+} */
+
+
+/*
+* ==========================================
+* SECTION2 END 
+* ==========================================
+*/
