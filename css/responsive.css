@@ -63,14 +63,16 @@
         position: absolute;
         left: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
     .owl-next {
         position: absolute;
         right: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
     .testimonial-area .owl-prev {
@@ -78,14 +80,16 @@
         bottom: 5px;
         left: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
     .testimonial-area .owl-next{
         position: absolute;
         right: 20%;
         bottom: 5px;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;        
     }
     div#news-slider3 .owl-prev {
         position: absolute;
@@ -94,7 +98,8 @@
         text-transform: uppercase;
         font-size: 12px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: #ffffff70; */
+        color: red;
         line-height: 1.7;
         text-align: center;
         background: #ffffff;
@@ -108,7 +113,8 @@
         text-transform: uppercase;
         font-size: 12px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: #ffffff70; */
+        color: red;
         line-height: 1.7;
         text-align: center;
         background: #ffffff;
@@ -239,7 +245,8 @@
         bottom: 3px;
         left: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
     .owl-next {
@@ -247,7 +254,8 @@
         bottom: 3px;
         right: 20%;
         text-transform: uppercase;
-        color: #ffffff70;
+        /* color: #ffffff70; */
+        color: red;
     }
 
 
@@ -258,7 +266,8 @@
         text-transform: uppercase;
         font-size: 12px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: #ffffff70; */
+        color: red;
         line-height: 1.7;
         text-align: center;
         background: #ffffff;
@@ -272,7 +281,8 @@
         text-transform: uppercase;
         font-size: 12px;
         font-family: "Roboto";
-        color: rgb(204, 204, 204);
+        /* color: rgb(204, 204, 204); */
+        color: red;
         line-height: 1.7;
         text-align: center;
         background: #ffffff;

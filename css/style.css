@@ -532,7 +532,8 @@ div#news-slider .owl-prev {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Roboto";
-  color: rgb(204, 204, 204);
+  /* color: #ffffff70; */
+  color: red;
   line-height: 1.7;
   text-align: center;
   background: #ffffff;
@@ -550,7 +551,9 @@ div#news-slider .owl-next {
   text-transform: uppercase;
   font-size: 12px;
   font-family: "Roboto";
-  color: rgb(204, 204, 204);
+  /* color: rgb(204, 204, 204); */
+  /* color: #ffffff70; */
+  color: red;
   line-height: 1.7;
   text-align: center;
   background: #ffffff;
@@ -574,9 +577,22 @@ div#news-slider .owl-next {
   width: 100%;
 }
 
+.featured-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+}
+
+.post-img:hover .featured-overlay{
+  opacity: 1;
+}
+
 .post-img p {
   color: #fff;
-  margin-top: 50%;
+  margin-top: 150px;
   text-align: center;
   visibility: hidden;
   
@@ -814,7 +830,8 @@ div#news-slider .owl-next {
   bottom: -40px;
   left: 40%;
   text-transform: uppercase;
-  color: #ffffff70;
+  /* color: #ffffff70; */
+  color: red;
 }
 
 .testimonial-area .owl-next  {
@@ -983,7 +1000,8 @@ div#news-slider .owl-next {
   bottom: 100px;
   left: 40%;
   text-transform: uppercase;
-  color: #ffffff70;
+  /* color: #ffffff70; */
+  color: red;
 }
 
 .owl-next{
@@ -991,7 +1009,8 @@ div#news-slider .owl-next {
   bottom: 100px;
   right: 40%;
   text-transform: uppercase;
-  color: #ffffff70;
+  /* color: #ffffff70; */
+  color: red;
 }
 
 .owl-height{
@@ -1078,7 +1097,8 @@ div#news-slider .owl-next {
   .contact100-form-title h3{
       font-size: 15px;
       font-family: "Roboto";
-      color: rgb(248, 176, 0);
+      /* color: rgb(248, 176, 0); */
+      color: red;
       font-weight: bold;
       line-height: 1.7;
       text-align: center;
@@ -1107,7 +1127,7 @@ div#news-slider .owl-next {
   }
   
   .rs1-wrap-input100 {
-    width: calc((100% - 30px) / 2);
+    width: calc((50% - 30px) / 2);
   }
   
   .label-input100 {
@@ -1202,7 +1222,7 @@ div#news-slider .owl-next {
     padding: 0 20px;
     min-width: 160px;
     height: 50px;
-    background-color: rgb(248, 176, 0);
+    background-color: #F70000;
     border-radius: 25px;
     font-family: 'Poppins';
     font-size: 16px;
