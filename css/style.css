@@ -1741,6 +1741,25 @@ section#sectionMarketplace .shapes p{
     text-align: center;
     margin-top: 25px;
 }
+
+.video-wrapper-max-width{
+  max-width: 1170px;
+}
+
+.video-wrapper{
+  position: relative;
+  padding-bottom: 37%;
+  height: 0;
+}
+
+.video-wrapper iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* 
 .minHeightProp{
   min-height: 150px;
@@ -1771,7 +1790,6 @@ section#sectionMarketplace .shapes p{
 
 .imgback {
   background-image: url(../img/shape/redcircle.png);
-  /* max-width: 100%; */
   padding-right: 35px;
   background-repeat: no-repeat;
   display: block;
