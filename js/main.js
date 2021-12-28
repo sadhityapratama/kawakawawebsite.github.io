@@ -159,3 +159,9 @@ function initMap() {
     // The marker, positioned at Uluru
     var marker = new google.maps.Marker({position: uluru, map: map});
     }
+
+function autoSlider(){
+    var button = document.getElementById('autoClicker');
+    function clickButton(){button.click()}
+    setInterval(clickButton,200)
+}

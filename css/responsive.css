@@ -1,30 +1,58 @@
 /* Large desktop :1920px. */
 @media (min-width: 1920px) {   
+    .footer-area-divider{
+        background-color: yellow;
+      }
 
+      
 }
 
 /* Laptop Device :1366px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-
+    .footer-area-divider{
+        background-color: green;
+        
+      }
 
 }
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .footer-area-divider{
+        background-color: royalblue;
+        
+      }
 
+      .single-slide1{
+        background-image: url(../img/new/cheosnun_original.jpg);
+      }
+      .single-slide2{
+        background-image: url(../img/featured/featured2.jpg);
+      }
+      .single-slide3{
+        background-image: url(../img/parallax/backgroundblack.jpg);
+      }
 
 }
 
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .footer-area-divider{
+        background-color: blueviolet;
+        
+      }
 }
 
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+
+    .footer-area-divider{
+        background-color: burlywood;
+        
+      }
     /*.slider-content-area {
         position: absolute;
         top: 5%;

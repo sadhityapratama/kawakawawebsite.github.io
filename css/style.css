@@ -1760,6 +1760,15 @@ section#sectionMarketplace .shapes p{
   height: 100%;
 }
 
+.footer-area-divider{
+  background-color: #000;
+  
+}
+
+.footer-area-divider p{
+  color: #000;
+  
+}
 /* 
 .minHeightProp{
   min-height: 150px;
@@ -1817,3 +1826,13 @@ img.imgback:hover {
 * SECTION2 END 
 * ==========================================
 */
+
+.single-slide1{
+  background-image: url(../img/slider/carousel2.png);
+}
+.single-slide2{
+  background-image: url(../img/slider/carousel3.png);
+}
+.single-slide3{
+  background-image: url(../img/slider/carousel1.png);
+}
