@@ -4,6 +4,22 @@
         background-color: yellow;
       }
 
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
       
 }
 
@@ -13,6 +29,22 @@
     .footer-area-divider{
         background-color: green;
         
+      }
+
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
 }
@@ -25,13 +57,19 @@
       }
 
       .single-slide1{
-        background-image: url(../img/new/cheosnun_original.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       .single-slide2{
-        background-image: url(../img/featured/featured2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       .single-slide3{
-        background-image: url(../img/parallax/backgroundblack.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
 }
@@ -43,6 +81,23 @@
         background-color: blueviolet;
         
       }
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/slider/carouselmobile2.JPG);
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/slider/carouselmobile1.JPG);
+      }
 }
 
  
@@ -52,6 +107,24 @@
     .footer-area-divider{
         background-color: burlywood;
         
+      }
+
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/slider/carouselmobile2.JPG);
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/slider/carouselmobile1.JPG);
       }
     /*.slider-content-area {
         position: absolute;

@@ -1828,7 +1828,7 @@ img.imgback:hover {
 */
 
 .single-slide1{
-  background-image: url(../img/slider/carousel2.png);
+  background-image: url(../img/slider/carousel2.jpg);
 }
 .single-slide2{
   background-image: url(../img/slider/carousel3.png);
@@ -1836,3 +1836,4 @@ img.imgback:hover {
 .single-slide3{
   background-image: url(../img/slider/carousel1.png);
 }
+
