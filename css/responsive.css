@@ -1,8 +1,6 @@
 /* Large desktop :1920px. */
 @media (min-width: 1920px) {   
-    .footer-area-divider{
-        background-color: yellow;
-      }
+
 
       .single-slide1{
         background-position: center;
@@ -26,10 +24,7 @@
 /* Laptop Device :1366px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-    .footer-area-divider{
-        background-color: green;
-        
-      }
+
 
       .single-slide1{
         background-position: center;
@@ -51,10 +46,6 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-    .footer-area-divider{
-        background-color: royalblue;
-        
-      }
 
       .single-slide1{
         background-position: center;
@@ -77,10 +68,7 @@
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-    .footer-area-divider{
-        background-color: blueviolet;
-        
-      }
+
       .single-slide1{
         background-position: center;
         background-repeat: no-repeat;
@@ -90,13 +78,13 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../img/slider/carouselmobile2.JPG);
+        /* background-image: url(../img/slider/carouselmobile2.JPG); */
       }
       .single-slide3{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../img/slider/carouselmobile1.JPG);
+        /* background-image: url(../img/slider/carouselmobile1.JPG); */
       }
 }
 
@@ -104,10 +92,6 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
-    .footer-area-divider{
-        background-color: burlywood;
-        
-      }
 
       .single-slide1{
         background-position: center;
@@ -118,13 +102,13 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../img/slider/carouselmobile2.JPG);
+        /* background-image: url(../img/slider/carouselmobile2.JPG); */
       }
       .single-slide3{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url(../img/slider/carouselmobile1.JPG);
+        /* background-image: url(../img/slider/carouselmobile1.JPG); */
       }
     /*.slider-content-area {
         position: absolute;
@@ -192,10 +176,10 @@
         /* color: #ffffff70; */
         color: red;        
     }
-    div#news-slider3 .owl-prev {
+    div#news-slider .owl-prev {
         position: absolute;
         bottom: -20px;
-        left: 10%;
+        left: 15%;
         text-transform: uppercase;
         font-size: 12px;
         font-family: "Roboto";
@@ -207,10 +191,10 @@
         padding: 10px;
     }
 
-    div#news-slider3 .owl-next {
+    div#news-slider .owl-next {
         position: absolute;
         bottom: -20px;
-        right: 10%;
+        right: 15%;
         text-transform: uppercase;
         font-size: 12px;
         font-family: "Roboto";
@@ -307,6 +291,25 @@
 }
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+      .single-slide1{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .single-slide2{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile2.JPG); */
+      }
+      .single-slide3{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-image: url(../img/slider/carouselmobile1.JPG); */
+      }
+
     /*.slider-content-area {
         position: absolute;
         top: 5%;
@@ -360,7 +363,7 @@
     }
 
 
-    div#news-slider3 .owl-prev {
+    div#news-slider .owl-prev {
         position: absolute;
         bottom: -20px;
         left: 10%;
@@ -375,7 +378,7 @@
         padding: 10px;
     }
 
-    div#news-slider3 .owl-next {
+    div#news-slider .owl-next {
         position: absolute;
         bottom: -20px;
         right: 10%;

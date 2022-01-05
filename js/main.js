@@ -5,8 +5,8 @@
         loop:true,
         margin:10,
         nav:true,
-        autoHeight:false,
-        autoHeightClass: 'owl-height',
+        // autoHeight:false,
+        // autoHeightClass: 'owl-height',
         pagination: true,
         responsive:{
             0:{
@@ -25,8 +25,8 @@
         loop:false,
         margin:10,
         nav:true,
-        autoHeight:false,
-        autoHeightClass: 'owl-height',
+        // autoHeight:false,
+        // autoHeightClass: 'owl-height',
         pagination: true,
         responsive:{
             0:{
@@ -46,7 +46,7 @@
         margin:10,
         nav:true,
         dots: false,
-        autoHeight:true,
+        // autoHeight:false,
         pagination: true,
         navText : ["<img src='./img/slider/rightarrow.png' />","<img src='./img/slider/leftarrow.png' />"],
         responsive:{
