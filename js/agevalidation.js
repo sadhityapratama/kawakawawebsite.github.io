@@ -32,7 +32,10 @@ function validateForm() {
         alert("You cannot enter this website, you must be at least 21");
         return false;
       }
-
- 
-
   }
+
+function autoMoveNextField(field, fieldId){
+    if(field.value.length >= field.maxLength){
+        document.getElementById(fieldId).focus();
+    }
+}
